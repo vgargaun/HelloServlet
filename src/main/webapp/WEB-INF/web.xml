@@ -19,4 +19,13 @@
         <servlet-name>List</servlet-name>
         <url-pattern>/list</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Methosdd</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Methosdd</servlet-name>
+        <url-pattern>/method/*</url-pattern>
+    </servlet-mapping>
 </web-app>
